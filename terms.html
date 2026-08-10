@@ -2,32 +2,94 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Conditions d'utilisation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — DocteurFaipeur</title>
 <style>
-  body { font-family: -apple-system, Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
-  h1 { font-size: 1.6em; }
-  h2 { font-size: 1.2em; margin-top: 1.5em; }
+  :root {
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #111827;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 24px 100px;
+    line-height: 1.65;
+    color: var(--text);
+    background: #ffffff;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 1.8em;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.92em;
+  }
+  h2 {
+    font-size: 1.15em;
+    margin-top: 2.2em;
+    margin-bottom: 0.6em;
+    color: var(--accent);
+  }
+  p { margin: 0.7em 0; }
+  ul { margin: 0.7em 0; padding-left: 1.4em; }
+  li { margin: 0.3em 0; }
+  footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.88em;
+  }
+  a { color: var(--accent); }
 </style>
 </head>
 <body>
-  <h1>Conditions d'utilisation</h1>
-  <p>Dernière mise à jour : <!-- 10/08/2026 --></p>
+  <header>
+    <h1>Politique de confidentialité</h1>
+    <div class="meta">DocteurFaipeur · Dernière mise à jour : 10 août 2026</div>
+  </header>
 
-  <p>Ces conditions s'appliquent à l'application <strong>DocteurFaipeur</strong>,développée par Mathieu Meriot.</p>
+  <p>Cette politique de confidentialité décrit comment <strong>DocteurFaipeur</strong> ("l'Application"), développée et exploitée par Mathieu Meriot ("nous", "notre"), traite les données lorsque vous utilisez l'Application en lien avec votre compte TikTok.</p>
 
-  <h2>1. Objet de l'App</h2>
-  <p>L'App permet de publier automatiquement du contenu vidéo sur TikTok, au nom d'un compte TikTok ayant explicitement autorisé l'accès via le protocole OAuth 2.0 de TikTok.</p>
+  <h2>1. Données collectées</h2>
+  <p>L'Application accède uniquement aux données strictement nécessaires à son fonctionnement, via les jetons d'autorisation (access token et refresh token) délivrés par TikTok après que vous avez explicitement approuvé la connexion. L'Application ne collecte aucune donnée personnelle en dehors de ce mécanisme d'autorisation officiel.</p>
 
-  <h2>2. Utilisation autorisée</h2>
-  <p>L'App est destinée à un usage personnel, pour la publication de contenu original sur le ou les comptes TikTok que vous contrôlez et avez autorisés. Vous restez seul responsable du contenu publié.</p>
+  <h2>2. Finalité du traitement</h2>
+  <ul>
+    <li>Publier, à votre demande, du contenu vidéo sur le compte TikTok que vous avez autorisé</li>
+    <li>Vérifier le statut d'une publication auprès de l'API TikTok</li>
+    <li>Maintenir la connexion active via le renouvellement des jetons d'accès</li>
+  </ul>
+  <p>Aucune donnée n'est utilisée à des fins publicitaires, de profilage, ou revendue à des tiers.</p>
 
-  <h2>3. Comptes tiers</h2>
-  <p>L'App s'appuie sur l'API officielle TikTok for Developers. Vous devez respecter les conditions d'utilisation et politiques de TikTok en plus des présentes conditions.</p>
+  <h2>3. Stockage et sécurité</h2>
+  <p>Les jetons d'accès sont stockés de manière sécurisée et ne sont accessibles qu'à l'Application elle-même. Ils ne sont jamais partagés avec des tiers, à l'exception des appels strictement nécessaires vers l'API officielle de TikTok.</p>
 
-  <h2>4. Résiliation</h2>
-  <p>Vous pouvez révoquer à tout moment l'autorisation donnée à l'App depuis les paramètres de votre compte TikTok.</p>
+  <h2>4. Durée de conservation</h2>
+  <p>Les jetons sont conservés tant que l'autorisation reste active. Vous pouvez révoquer cet accès à tout moment depuis les paramètres de votre compte TikTok ; les jetons correspondants sont alors invalidés côté TikTok et supprimés de notre système.</p>
 
-  <h2>5. Contact</h2>
-  <p>Pour toute question : <!-- mathieumer23@outlook.fr --></p>
+  <h2>5. Vos droits</h2>
+  <p>Conformément aux réglementations applicables en matière de protection des données, vous pouvez à tout moment demander la suppression de vos données ou révoquer l'accès de l'Application en nous contactant à l'adresse ci-dessous, ou directement depuis les paramètres de votre compte TikTok.</p>
+
+  <h2>6. Modifications</h2>
+  <p>Cette politique peut être mise à jour périodiquement. La date de dernière mise à jour figure en haut de cette page.</p>
+
+  <h2>7. Contact</h2>
+  <p>Pour toute question relative à cette politique : <a href="mailto:mathieumer23@outlook.fr">mathieumer23@outlook.fr</a></p>
+
+  <footer>
+    © 2026 Mathieu Meriot — DocteurFaipeur
+  </footer>
 </body>
 </html>
